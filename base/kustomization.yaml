@@ -1,0 +1,6 @@
+commonLabels:
+  app: drug-search-tailwind
+resources:
+  - web-deployment.yaml
+  - web-service.yaml
+  - web-route.yaml

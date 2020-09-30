@@ -1,0 +1,13 @@
+apiVersion: apps.openshift.io/v1
+kind: DeploymentConfig
+metadata:  
+  name: drug-search-tailwind
+spec:
+  template:
+    spec:
+      containers: 
+        - name: drug-search-tailwind
+          resources:
+            limits:
+              cpu: 100m
+  
