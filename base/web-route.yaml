@@ -6,11 +6,11 @@ metadata:
     app: drug-search-tailwind
   name: drug-search-tailwind
 spec:
-  host: ""
+  host: drug-search-tailwind-dpd.apps-crc.testing
   port:
     targetPort: 8080
   to:
-    kind: ""
+    kind: Service
     name: drug-search-tailwind
     weight: null
 status:
